@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(39, 40, 37);
+    color: azure;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:  rgb(59, 60, 56);
+    padding: 50px;
+    width: 60%;
+    height: 60%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 10px rgb(101, 96, 96);
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.countdown div{
+    background-color:  rgb(166, 169, 160);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    font-size: xx-large;
+}
+
+h2{
+    font-size: 1.7rem;
+}
+
+.progress-container{
+    background-color: white;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.progress-bar{
+    background-color: rgb(59, 216, 41);
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease-out;
+    border-radius: 5px;
+}
+
+#input{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-s-date, .input-e-date{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+input{
+    border-radius: 10px;
+    height: 30px;
+    margin: auto;
+    box-shadow: 3px 3px 3px;
+}
+
+.input-s-date p{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-e-date p{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit-date{
+    font-size: x-large;
+    border-radius: 7px;
+    font-family: fantasy;
+    background-color: red;
+    box-shadow: 5px 5px 5px;
+}
+
+#submit-date:hover{
+    cursor: pointer;
+    background-color: grey;
+    font-size: xx-large;
+    transition: all 0.2s ease-in-out;
+}
+
+#third-page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
